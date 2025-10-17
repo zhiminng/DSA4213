@@ -6,7 +6,7 @@ This project compares **Full Fine-tuning** and **LoRA (Low-Rank Adaptation)** fo
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 The dataset used is the **Financial PhraseBank** (`Sentences_66Agree.txt`), which contains financial news sentences labeled with positive, neutral, or negative sentiment.  
 
@@ -18,19 +18,19 @@ FinancialPhraseBank-dataset/
 
 ---
 
-## 💻 How to Run
+## How to Run
 
-### 1️⃣ Download the Notebooks
+### 1️.Download the Notebooks
 - `Full_Finetuning.ipynb`  
 - `LoRA.ipynb`  
 
-### 2️⃣ Open in Google Colab
+### 2️.Open in Google Colab
 Upload the notebooks to **Google Colab**.
 
-### 3️⃣ Upload the Dataset
+### 3️.Upload the Dataset
 Manually upload `Sentences_66Agree.txt` in Colab before running the notebooks.
 
-### 4️⃣ Run All Cells
+### 4️.Run All Cells
 Each notebook will:
 - Load and preprocess the dataset
 - Fine-tune FinBERT (full or LoRA)
@@ -39,7 +39,7 @@ Each notebook will:
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 | Method            | Accuracy | Notes |
 |------------------|---------|--------------------------------|
@@ -48,7 +48,7 @@ Each notebook will:
 
 ---
 
-## 🧠 Key Takeaways
+## Key Takeaways
 
 - **Full fine-tuning** achieves higher performance on small-to-medium datasets.  
 - **LoRA** offers huge parameter efficiency but is sensitive to rank, learning rate, training duration, and target modules.  
